@@ -1,4 +1,4 @@
-import styles from '@/styles/Home.module.css';
+import styles from '@/styles/Notas.module.css'
 
 const Notas = () => {
     return (
@@ -8,20 +8,20 @@ const Notas = () => {
                 <div className={styles.notas}>
                     <div className={styles.infos}>
                         <h5> 7,9 </h5>
-                        <p> U1 </p>
+                        <p> Unidade 1 </p>
                     </div>
 
                     <div className={styles.infos}>
                         <h5> 8,7 </h5>
-                        <p> U2 </p>
+                        <p> Unidade 2 </p>
                     </div>
                     
                     <div className={styles.infos}>
                         <h5> 9,8 </h5>
-                        <p> U3 </p>
+                        <p> Unidade 3 </p>
                     </div>
 
-                    <div>
+                    <div className={styles.media}>
                         <h4> 8,8 </h4>
                         <p> Média </p>
                     </div>

@@ -1,70 +1,3 @@
-/* NAVBAR */
-
-.navbar {
-    padding: 30px;  
-    display: flex;
-    justify-content: space-between;
-}
-
-.navbar h4 {
-    font-size: 24px;
-    font-weight: 400;
-    color: #373737;
-}
-
-.navbar a {
-    color: #248DF4;
-}
-
-.navbar p {
-    color: #124375;
-}
-
-.logo {
-    margin-top: 20px;
-}
-
-.perfil {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-end;
-}
-
-.dark {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
-.toggle {
-    position: relative;
-    display: block;
-    width: 30px;
-    height: 18px;
-    border-radius: 10px;
-    background-color: #C0C0C0;
-}
-
-.toggle .indicator {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 18px;
-    height: 18px;
-    background-color: #124375;
-    border-radius: 50%;
-    transform: scale(0.7);
-}
-
-
-/* CONTEÚDO */
 .container {
     padding: 10px;
     display: flex;
@@ -103,8 +36,6 @@
     margin-bottom: 33px;
     display: flex;
     justify-content: space-around;
-    text-align: center;
-
 }
 
 .notas h5 {
@@ -130,7 +61,10 @@
 
 .infos {
     border-right: 1px solid #EAEAEA;
-    padding: 0px 5px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 25px;
 }
 
 .comentarios {
@@ -145,64 +79,4 @@
 
 .conteudo {
     display: flex;
-}
-
-.menu {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.itens_menu {
-    display: flex;
-    padding: 10px;
-    justify-content: flex-start;
-    gap: 20px;
-    padding-left: 20px;
-}
-
-.itens_menu p {
-    margin-top: 5px;
-    color: #C0C0C0;
-}
-
-.itens_menu_selecionado {
-    border-left: 7px solid #248DF4;
-    display: flex;
-    padding: 10px;
-    justify-content: flex-start;
-    gap: 20px;
-    padding-left: 13px;
-}
-
-.itens_menu_selecionado p {
-    margin-top: 5px;
-    color: #248DF4;
-}
-
-/* Footer */
-
-.footer {
-    display: flex;
-    justify-content: flex-start;
-    padding: 33px;
-    gap: 260px;
-    color: #C0C0C0;
-}
-
-.info_footer {
-    text-align: center;
-}
-
-.info_footer h3 {
-    font-size: 14px;
-}
-
-.info_footer p {
-    font-size: 12px;
-}
-
-.footer h4 {
-    font-weight: 400;
-    font-size: 16px;
 }

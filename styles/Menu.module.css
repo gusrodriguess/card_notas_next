@@ -1,0 +1,35 @@
+.menu {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itens_menu {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.itens_menu p {
+    margin-top: 5px;
+    color: #C0C0C0;
+}
+
+.itens_menu_selecionado {
+    border-left: 7px solid #248DF4;
+    cursor: pointer;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 13px;
+    font-weight: 700;
+}
+
+.itens_menu_selecionado p {
+    margin-top: 5px;
+    color: #248DF4;
+}
